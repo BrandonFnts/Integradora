@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="navigation">
+    <nav>
+      <div class="logo">
+        <img src="img/IntelicuentoLogo.png" alt="Logotipo">
+      </div>
+      <ul>
+        <li><a href="inicio.html">Inicio</a></li>
+        <li><a href="caracteristicas.html">Características</a></li>
+        <li><a href="historias.html">Historias</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <section id="contacto">
+
+    <h2>Regístrate</h2>
+    <div class="formulario">
+      <form>
+        <table>
+          <tr>
+            <td class="left"><label for="nombres">Nombre(s):</label></td>
+            <td class="right"><input type="text" id="nombres" name="nombres" required></td>
+          </tr>
+          <tr>
+            <td class="left"><label for="apellido1">Primer Apellido:</label></td>
+            <td class="right"><input type="text" id="apellido1" name="apellido1" required></td>
+          </tr>
+          <tr>
+            <td class="left"><label for="apellido2">Segundo Apellido:</label></td>
+            <td class="right"><input type="text" id="apellido2" name="apellido2" required></td>
+          </tr>
+          <tr>
+            <td class="left"><label for="email">Correo Electrónico:</label></td>
+            <td class="right"><input type="email" id="email" name="email" required></td>
+          </tr>
+          <tr>
+            <td class="left"><label for="password">Contraseña:</label></td>
+            <td class="right"><input type="password" id="password" name="password" required></td>
+          </tr>
+          <tr>
+            <td class="left"><label for="confirmPassword">Confirmar Contraseña:</label></td>
+            <td class="right"><input type="password" id="confirmPassword" name="confirmPassword" required></td>
+          </tr>
+        </table>
+        <div class="centrar"><input class="btn" type="submit" value="Registrarse"></div>
+      </form>
+    </div>
+
+    <h2>Enviar Comentarios</h2>
+    <div class="formulario">
+      <form>
+        <table>
+          <tr>
+            <td class="left"><label for="comentarios-email">Correo Electrónico:</label></td>
+            <td class="right"><input type="email" id="comentarios-email" name="comentarios-email" required></td>
+          </tr>
+          <tr>
+            <td class="left"><label for="comentarios">Comentarios:</label></td>
+            <td class="right"><textarea id="comentarios" name="comentarios" required></textarea></td>
+          </tr>
+        </table>
+        <div class="centrar"><input class="btn" type="submit" value="Enviar"></div>
+      </form>
+    </div>
+
+  </section>
+
+  <footer>
+    <p>Todos los derechos reservados &copy; 2023 Intelicuento</p>
+  </footer>
+</body>
+
+</html>
